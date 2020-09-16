@@ -9,7 +9,7 @@ site:
 content:
   sources:
   - url: https://git.magnolia-cms.com/scm/~amansell/modules-sample.git
-    branches: [master,'6.3']
+    branches: [master]
     start_path: docs
  
 ui:
