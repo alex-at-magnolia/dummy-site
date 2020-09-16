@@ -1,0 +1,46 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{siteRootPath}}}/index.html">
+        <img class="logo" src="{{{uiRootPath}}}/img/magnolia-medium.png" style="width: 10rem; height:auto; margin-left:0.8rem; margin-top:0.4rem;" alt="Magnolia">
+      </a>
+            {{> search}}
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/releases/Releases.html">Releases</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Core</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/core/getting-started/hello-magnolia.html">Getting Started</a>
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/core/features/Features.html">Features</a>
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-modules/app-module.html">The App Module</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Cloud</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/cloud/getting-started/hello-cloud.html">Getting Started</a>
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/cloud/Cockpit.html">The Cockpit</a>
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/cloud/Developing-for-Magnolia-in-the-cloud.html">Developing in the Cloud</a>
+            <a class="navbar-item" href="{{{siteRootPath}}}/magnolia-docs/cloud/Upgrading-Magnolia-in-the-cloud.html">Upgrading in the Cloud</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="https://hd.magnolia-cms.com/docs/introduction/" target="_blank">Headless</a>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://www.magnolia-cms.com/get-started">Get Magnolia</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="lower-head">
+    
+  </div>
+</header>
