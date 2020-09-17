@@ -1,0 +1,10 @@
+[build]
+base = "."
+publish = "build/site"
+
+[build.environment]
+NODE_VERSION = "10"
+CI = "true"
+SITE_ENV = "production"
+
+[context.deploy-preview]
