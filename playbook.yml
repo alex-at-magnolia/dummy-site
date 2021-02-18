@@ -11,6 +11,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/~amansell/modules-sample.git
     branches: [master,'6.3']
     start_path: docs
+  - url: https://gitlab.com/magnolia-major-tom/major-tom-documentation.git
+    branches: [master]
+    start_path: docs
  
 ui:
   bundle:
